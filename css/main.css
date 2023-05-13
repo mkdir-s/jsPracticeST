@@ -16,6 +16,13 @@ a {
 textarea {
   resize: none;
 }
+button {
+  cursor: pointer;
+  border: none;
+  color: #eee;
+  padding: 10px 20px;
+  background-color: #333;
+}
 .wrapper {
   height: 100vh;
   display: flex;
