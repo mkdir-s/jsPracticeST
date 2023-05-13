@@ -33,3 +33,19 @@ button {
 .hidden {
   display: none;
 }
+.box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+}
+.guessBoxWrapper {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(10, 30px);
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
