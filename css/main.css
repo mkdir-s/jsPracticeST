@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+}
+a {
+  color: inherit;
+  margin-bottom: 15px;
+}
+textarea {
+  resize: none;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
